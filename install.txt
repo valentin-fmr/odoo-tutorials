@@ -1,0 +1,7 @@
+#shortcuts for useful commands
+
+#filter db on rd-demo
+./odoo-bin --addons-path=addons/,../odoo-tutorials -d rd-demo --db-filter=rd-demo
+
+#update a module
+./odoo-bin --addons-path="addons/,../odoo-tutorials" -d rd-demo --db-filter=rd-demo -u estates
